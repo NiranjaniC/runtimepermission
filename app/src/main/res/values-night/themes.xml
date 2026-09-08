@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.EX6PMD" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.Runtimepermission" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> 16a50cb0915eb325963f19c06f5eadcb7f4dc735
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
