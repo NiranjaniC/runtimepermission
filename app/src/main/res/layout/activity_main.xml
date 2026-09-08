@@ -1,0 +1,136 @@
+           <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Runtime Permission"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#202A44" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Camera &amp; Storage Access"
+            android:textSize="16sp"
+            android:textColor="#687386" />
+
+        <!-- Header -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#202A44"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PERMISSION CENTER"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ready to request permission"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Camera -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Camera Access"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#202A44" />
+
+        <TextView
+            android:id="@+id/cameraStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="15dp"
+            android:background="#E8F0FF"
+            android:text="● Camera permission required"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#2457B8" />
+
+        <Button
+            android:id="@+id/cameraButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:text="Allow Camera"
+            android:textSize="16sp"
+            android:textAllCaps="false" />
+
+        <!-- Storage -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Storage / Media Access"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#202A44" />
+
+        <TextView
+            android:id="@+id/storageStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="15dp"
+            android:background="#FFF4E5"
+            android:text="● Storage permission required"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#A86400" />
+
+        <Button
+            android:id="@+id/storageButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:text="Allow Storage"
+            android:textSize="16sp"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Permissions are requested only when needed."
+            android:textSize="13sp"
+            android:textColor="#687386" />
+
+    </LinearLayout>
+
+</ScrollView>
